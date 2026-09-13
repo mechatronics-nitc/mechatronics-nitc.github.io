@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: facilities & projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: Robotic platforms, research systems, and experimental facilities at the Mechatronics & Robotics Laboratory, NIT Calicut.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 1
+display_categories: ["Mobile Robotics", "Manipulation & Healthcare", "Automation & Field Robotics"]
 horizontal: false
 ---
 

@@ -2,33 +2,164 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Department of Mechanical Engineering, National Institute of Technology Calicut
 
 profile:
   align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: kinova_gen3.png
+  image_circular: false
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p><strong>Mechatronics & Robotics Lab</strong></p>
+    <p>Dept. of Mechanical Engineering</p>
+    <p>National Institute of Technology Calicut</p>
+    <p>Kozhikode, Kerala 673601, India</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: false
+social: false
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: false
+  limit: 3
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+Welcome to the **Mechatronics and Robotics Laboratory** at the [National Institute of Technology Calicut (NITC)](https://nitc.ac.in). Our laboratory is dedicated to advancing education, scientific research, and technological innovation across robotics, autonomous systems, mechatronic design, and industrial automation.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+We focus on bridging cutting-edge robotics research with practical real-world applications in healthcare, agriculture, mobility, and industrial automation.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+---
+
+### Core Research & Facility Pillars
+
+<div class="row">
+  <div class="col-sm-6 mb-4">
+    <div class="card h-100 p-3 shadow-sm">
+      <h4>🐕 Mobile & Legged Robotics</h4>
+      <p>Researching dynamic locomotion, multi-terrain navigation, and perception systems utilizing quadrupedal robotic platforms and rugged tracked vehicles (OX-Alpha).</p>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-4">
+    <div class="card h-100 p-3 shadow-sm">
+      <h4>🦾 Collaborative Manipulation & HRI</h4>
+      <p>Investigating lightweight cobot manipulation, vision-guided grasping, and compliant human–robot interaction using the <strong>KINOVA Gen 3</strong> robotic arm.</p>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-6 mb-4">
+    <div class="card h-100 p-3 shadow-sm">
+      <h4>🏥 Healthcare & Assistive Robotics</h4>
+      <p>Pioneering automated assistive systems such as our research on the <strong>Multifunctional Patient-Care Bed</strong>, designed for assisted repositioning and caregiver relief.</p>
+    </div>
+  </div>
+  <div class="col-sm-6 mb-4">
+    <div class="card h-100 p-3 shadow-sm">
+      <h4>🌾 Aerial Telemetry & Automation</h4>
+      <p>Developing field robotics such as sensor-integrated <strong>Soil Testing Drones</strong> for precision agriculture and hands-on <strong>Electro-Hydraulic Trainer Kits</strong> for fluid power automation.</p>
+    </div>
+  </div>
+</div>
+
+---
+
+### Key Equipment & Research Platforms
+
+<div class="row">
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Mobile%20Robotics' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/quadruped.png" title="Quadruped Robot" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>Quadruped Robot</strong><br>Agile mobile locomotion
+    </div>
+  </div>
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Mobile%20Robotics' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/ox_alpha.png" title="OX-Alpha Tracked Robot" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>OX-Alpha Mobile Platform</strong><br>Tracked autonomous mobility
+    </div>
+  </div>
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Manipulation%20&%20Healthcare' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/kinova_gen3.png" title="KINOVA Gen 3 Robotic Arm" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>KINOVA Gen 3 Arm</strong><br>Collaborative manipulation & HRI
+    </div>
+  </div>
+</div>
+
+<div class="row mt-2">
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Manipulation%20&%20Healthcare' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/patient_care_bed.png" title="Patient-Care Bed" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>Patient-Care Bed</strong><br>Adaptive caregiver assistance
+    </div>
+  </div>
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Automation%20&%20Field%20Robotics' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/soil_testing_drone.png" title="Soil Testing Drone" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>Soil Testing Drone</strong><br>Rapid in-situ soil mapping
+    </div>
+  </div>
+  <div class="col-sm-4 mt-3">
+    <a href="{{ '/projects/#Automation%20&%20Field%20Robotics' | relative_url }}">
+      {% include figure.liquid loading="eager" path="assets/img/hydraulic_trainer.png" title="Hydraulic Trainer Kit" class="img-fluid rounded z-depth-1" %}
+    </a>
+    <div class="caption text-center">
+      <strong>Hydraulic Trainer Kit</strong><br>Fluid power & PLC control
+    </div>
+  </div>
+</div>
+
+<div class="text-center mt-4">
+  <a class="btn btn-outline-primary" href="{{ '/projects/' | relative_url }}">Explore All Facilities & Platforms &rarr;</a>
+</div>
+
+---
+
+### Leadership & Supervision
+
+<div class="row mt-3">
+  <div class="col-md-6 mb-3">
+    <div class="card p-3 shadow-sm h-100">
+      <div class="text-center mb-3">
+        <div style="max-width: 140px; margin: 0 auto;">
+          {% include figure.liquid loading="eager" path="assets/img/dr_sudheer_ap.jpg" title="Dr. Sudheer A. P." class="img-fluid rounded-circle shadow-sm" %}
+        </div>
+      </div>
+      <h5 class="card-title text-center mb-1"><a href="{{ '/people/' | relative_url }}">Dr. Sudheer A. P.</a></h5>
+      <p class="text-muted text-center small mb-2">Co-founder &amp; Supervising Faculty<br>Dept. of Mechanical Engineering, NITC</p>
+      <p class="card-text small">Research in robotics, multibody kinematics &amp; dynamics, healthcare assistive devices, and automated patient repositioning.</p>
+      <div class="mt-auto text-center">
+        <a class="btn btn-sm btn-outline-secondary" href="{{ '/people/' | relative_url }}">View Profile &rarr;</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-md-6 mb-3">
+    <div class="card p-3 shadow-sm h-100">
+      <div class="text-center mb-3">
+        <div style="max-width: 140px; margin: 0 auto;">
+          {% include figure.liquid loading="eager" path="assets/img/dr_arindam_bhattacharjee.png" title="Dr. Arindam Bhattacharjee" class="img-fluid rounded-circle shadow-sm" %}
+        </div>
+      </div>
+      <h5 class="card-title text-center mb-1"><a href="{{ '/people/' | relative_url }}">Dr. Arindam Bhattacharjee</a></h5>
+      <p class="text-muted text-center small mb-2">Supervising Faculty<br>Dept. of Mechanical Engineering, NITC</p>
+      <p class="card-text small">Research in robotic control systems, non-linear dynamics, autonomous ground &amp; aerial vehicles, and mechatronic design.</p>
+      <div class="mt-auto text-center">
+        <a class="btn btn-sm btn-outline-secondary" href="{{ '/people/' | relative_url }}">View Profile &rarr;</a>
+      </div>
+    </div>
+  </div>
+</div>
